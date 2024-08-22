@@ -1,0 +1,47 @@
+body {
+color: white;
+background: rgb(160, 159, 159);
+margin: 0px;
+font-family: "Moderustic", sans-serif;
+
+}
+
+header{
+    border-bottom: solid 2px rgb(7, 32, 68);
+    padding: 20px;
+    font-size: 50px;
+    color: rgb(100, 1, 1);
+    font-family: "New Amsterdam", sans-serif;
+}
+
+section{
+   background: rgb(153, 153, 153);
+padding-bottom: 80px;
+padding-top: 80px;
+ display: flex;
+justify-content: center;
+}
+
+div{
+    margin-right: 20px;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+}
+
+p2{
+    font-size: 15px;
+}
+
+img{
+    
+    height: 200px;
+}
