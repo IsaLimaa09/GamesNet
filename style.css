@@ -1,12 +1,12 @@
 body {
-color: white;
-background: rgb(160, 159, 159);
-margin: 0px;
-font-family: "Moderustic", sans-serif;
+    color: white;
+    background: rgb(160, 159, 159);
+    margin: 0px;
+    font-family: "Moderustic", sans-serif;
 
 }
 
-header{
+header {
     border-bottom: solid 2px rgb(7, 32, 68);
     padding: 20px;
     font-size: 50px;
@@ -14,34 +14,53 @@ header{
     font-family: "New Amsterdam", sans-serif;
 }
 
-section{
-   background: rgb(153, 153, 153);
-padding-bottom: 80px;
-padding-top: 80px;
- display: flex;
-justify-content: center;
+.chamada {
+    background: rgb(153, 153, 153);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
 }
 
-div{
+div {
     margin-right: 20px;
 }
 
-.chamada-texto{
+.chamada-texto {
     margin-right: 5%;
 }
 
-h1{
+h1 {
     font-size: 40px;
 }
-p{
+
+p {
     font-size: 25px;
 }
 
-p2{
-    font-size: 15px;
+img {
+
+    height: 140px;
 }
 
-img{
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
     
-    height: 200px;
+}
+.categoria img{
+opacity: 0.5;
+height: 200px;
+
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(61, 61, 61);
 }
